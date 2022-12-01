@@ -1,0 +1,14 @@
+.frombox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    .leftbox{
+        width: 50%;
+        flex: 1;
+    }
+    .rightbox{
+        width: 50%;
+        flex: 1;
+    }
+}
